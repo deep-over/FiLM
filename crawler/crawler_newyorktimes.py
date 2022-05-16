@@ -79,7 +79,11 @@ class NewyorkTimesCrawler :
             }
             
             response = json.loads(requests.get(requestURL, headers=requestHeaders).text)
-            docs = response['response']['docs']
+            try :
+                docs = response['response']['docs']
+            except Exception as e :
+                print(date, e, response.keys)
+
             # newsdesk is 'Business' or 'Business Day' or 'Financial' or 'Your Money'
             filtered = list(filter(lambda x : (x['news_desk']=='Business' or x['news_desk']=='Business Day' or x['news_desk']=='Financial' or x['news_desk']=='Your Money') and x['type_of_material']=='News', docs))
             urls = [i['web_url'] for i in filtered]
@@ -96,8 +100,12 @@ class NewyorkTimesCrawler :
         json_list = []
         for i, url in enumerate(tqdm(url_list)) :
             headers = {'User-Agent':'Chrome/101.0.4951.64'}
-            req = urllib.request.Request(url, headers=headers)
-            html = urllib.request.urlopen(req)
+            try :
+                req = urllib.request.Request(url, headers=headers)
+                html = urllib.request.urlopen(req)
+            except Exception as e :
+                print(e, url)
+                continue
             source = html.read()
             soup = BeautifulSoup(source, 'html.parser')
             contents = '\n'.join(list(map(lambda x : x.text, soup.find_all("p", attrs={"class":"css-at9mc1 evys1bk0"}))))
