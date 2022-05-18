@@ -111,12 +111,16 @@ class NewyorkTimesCrawler :
             contents = '\n'.join(list(map(lambda x : x.text, soup.find_all("p", attrs={"class":"css-at9mc1 evys1bk0"}))))
 
             data = {}
-            data['title'] = soup.find("h1").text
-            data['contents'] = contents
-            data['date'] = date_list[i]
-            data['platform'] = 'The New York Times'
-            data['category'] = 'news'
-            data['url'] = url
+            try :
+                data['title'] = soup.find("h1").text
+                data['contents'] = contents
+                data['date'] = date_list[i]
+                data['platform'] = 'The New York Times'
+                data['category'] = 'news'
+                data['url'] = url
+            except Exception as e :
+                print(e, url)
+                continue
 
             json_list.append(data)
         splitted_from_date = self.from_date.split('/')
