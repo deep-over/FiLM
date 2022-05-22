@@ -98,8 +98,11 @@ class NewyorkTimesCrawler :
     def crawl(self) :
         url_list, date_list = self.get_news_url_date()
         json_list = []
+        headers = {'User-Agent':'Chrome/101.0.4951.64'}
         for i, url in enumerate(tqdm(url_list)) :
-            headers = {'User-Agent':'Chrome/101.0.4951.64'}
+            if 'https://www.nytimes.com/' not in url :
+                print(url)
+                continue
             try :
                 req = urllib.request.Request(url, headers=headers)
                 html = urllib.request.urlopen(req)
