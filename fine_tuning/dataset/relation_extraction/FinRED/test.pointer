@@ -1,0 +1,1068 @@
+44 44 46 47 subsidiary
+30 30 18 18 owned_by
+17 18 14 14 employer
+18 18 28 28 product_or_material_produced
+14 15 11 12 industry
+26 26 24 24 owned_by
+14 14 13 13 manufacturer | 14 14 13 13 developer
+0 0 24 24 legal_form
+30 30 6 6 parent_organization
+14 14 15 15 distribution_format
+14 15 4 6 parent_organization
+0 0 2 3 chairperson
+8 9 5 6 industry
+29 29 23 23 product_or_material_produced
+9 10 18 19 industry
+43 43 3 3 location_of_formation
+6 6 3 4 product_or_material_produced
+21 21 12 12 industry
+32 32 25 25 parent_organization | 32 32 25 25 owned_by
+25 25 33 34 headquarters_location
+0 0 18 18 product_or_material_produced
+6 7 5 5 headquarters_location
+14 15 10 10 developer
+1 1 7 7 product_or_material_produced
+1 2 31 31 headquarters_location
+2 3 0 0 industry
+25 25 7 7 operator
+0 0 2 2 parent_organization
+2 3 0 0 employer
+25 25 13 13 developer | 25 25 13 13 creator | 13 14 18 18 owned_by | 25 25 13 13 owned_by
+52 52 80 80 manufacturer
+18 18 15 17 industry
+0 0 4 5 headquarters_location
+0 0 7 7 industry
+15 15 11 11 subsidiary | 11 11 15 15 parent_organization
+19 20 15 17 employer
+2 2 0 0 manufacturer | 2 2 0 0 developer
+14 14 8 8 product_or_material_produced
+8 8 6 7 parent_organization | 8 8 22 22 product_or_material_produced | 8 8 6 7 owned_by
+0 0 20 20 currency
+29 30 0 2 employer
+6 7 15 16 chairperson | 6 7 15 16 founded_by
+3 3 4 5 industry
+3 3 14 14 original_broadcaster
+23 23 0 0 headquarters_location
+0 0 15 15 industry
+3 3 21 21 owner_of
+10 11 7 7 headquarters_location
+26 27 9 9 product_or_material_produced
+28 28 8 8 industry | 35 35 8 8 industry
+5 6 0 0 developer
+28 29 27 27 creator
+5 6 1 1 employer
+0 0 14 15 industry
+19 19 12 12 parent_organization
+24 24 14 14 manufacturer
+17 18 19 19 employer
+32 32 22 22 headquarters_location
+0 1 5 5 industry
+18 18 5 5 owner_of
+25 26 14 15 operator
+8 8 0 0 parent_organization | 0 0 8 8 subsidiary
+30 30 21 22 subsidiary | 21 22 30 30 parent_organization
+25 26 19 19 employer
+15 16 2 3 director_/_manager
+19 20 0 1 manufacturer
+6 6 15 15 original_broadcaster
+14 15 17 17 product_or_material_produced
+10 11 4 4 subsidiary | 10 11 4 4 business_division
+18 19 0 2 parent_organization
+33 33 13 13 industry
+2 2 3 3 product_or_material_produced
+0 1 2 3 employer | 2 3 0 1 chief_executive_officer | 0 1 6 8 position_held
+15 15 1 2 chairperson | 15 15 11 12 chairperson
+4 5 8 8 product_or_material_produced | 7 8 13 13 product_or_material_produced
+16 17 18 18 headquarters_location
+5 5 15 15 platform
+27 27 16 17 operator
+0 0 5 5 headquarters_location
+14 15 22 23 industry
+0 0 16 17 subsidiary | 6 7 16 17 employer
+17 17 5 6 chief_executive_officer | 17 17 5 6 founded_by
+12 12 2 2 platform
+0 1 38 39 brand | 14 15 38 39 subsidiary | 14 15 38 39 owner_of
+18 19 10 10 industry
+15 15 10 10 headquarters_location
+31 32 4 4 product_or_material_produced
+9 9 0 0 owned_by | 0 0 9 9 owner_of | 0 0 9 9 subsidiary
+11 12 2 3 founded_by | 11 12 2 3 director_/_manager
+10 11 14 14 subsidiary | 14 14 10 11 parent_organization
+6 6 8 9 founded_by | 6 6 8 9 creator
+2 2 10 10 product_or_material_produced
+0 0 1 1 product_or_material_produced
+2 3 5 6 headquarters_location
+21 22 3 5 parent_organization
+21 21 214 214 industry | 188 188 214 214 industry
+33 33 32 32 owned_by | 17 18 6 7 parent_organization
+6 7 2 5 position_held
+25 25 26 26 product_or_material_produced
+12 13 1 1 manufacturer
+1 1 6 6 industry | 1 1 3 3 owned_by
+9 10 30 30 product_or_material_produced
+23 24 18 21 employer
+6 7 1 1 owner_of | 6 7 1 1 brand
+2 3 0 0 employer
+39 40 22 22 brand
+21 22 23 23 product_or_material_produced
+8 9 7 7 location_of_formation | 8 9 6 6 industry
+2 2 4 5 chief_executive_officer | 2 2 4 5 owned_by | 4 5 2 2 owner_of
+16 17 15 15 distributed_by | 16 17 15 15 publisher
+0 0 10 10 product_or_material_produced
+18 18 25 25 product_or_material_produced
+0 1 2 2 industry
+13 13 10 11 industry
+14 14 7 7 industry
+11 11 0 0 parent_organization
+16 17 29 29 employer
+25 26 19 19 owned_by
+8 8 10 10 owner_of
+6 6 2 2 industry
+0 0 9 10 product_or_material_produced | 0 0 9 10 industry
+17 18 16 16 position_held
+20 21 15 18 employer
+0 0 24 24 distributed_by | 22 22 24 24 distributed_by
+13 14 34 34 employer
+19 19 5 5 industry
+11 11 2 3 headquarters_location
+29 29 32 32 industry
+24 24 25 25 product_or_material_produced | 21 22 25 25 product_or_material_produced
+23 23 0 0 headquarters_location
+1 1 12 12 subsidiary
+2 4 5 6 owner_of
+0 1 28 28 product_or_material_produced
+12 12 0 1 owned_by | 0 1 12 12 owner_of | 12 12 0 1 parent_organization | 0 1 12 12 subsidiary
+2 3 26 26 product_or_material_produced
+8 9 13 13 industry
+18 18 7 8 manufacturer
+11 12 10 10 position_held
+9 10 7 7 product_or_material_produced
+3 3 2 2 owned_by
+7 7 12 12 publisher
+16 17 11 11 employer
+1 2 13 13 owner_of
+16 16 19 19 owner_of
+20 21 23 24 owned_by | 20 21 23 24 parent_organization | 23 24 20 21 owner_of
+8 8 27 27 product_or_material_produced | 8 8 0 3 owned_by
+17 17 2 3 location_of_formation
+11 11 14 15 chief_executive_officer | 11 11 14 15 owned_by | 14 15 11 11 owner_of
+31 31 0 0 industry
+11 11 10 10 manufacturer | 11 11 10 10 developer
+2 2 29 29 product_or_material_produced
+1 1 2 2 industry
+27 27 79 79 owner_of | 27 27 118 119 subsidiary | 27 27 32 32 owner_of | 27 27 79 79 subsidiary
+6 8 4 5 creator
+0 1 10 10 industry
+5 5 19 20 product_or_material_produced | 5 5 19 20 industry
+13 13 3 3 parent_organization
+9 10 4 5 manufacturer
+20 21 1 1 product_or_material_produced
+16 16 23 23 parent_organization | 16 16 23 23 owned_by
+5 6 2 3 owned_by | 5 6 2 3 parent_organization | 2 3 5 6 owner_of
+3 3 10 10 product_or_material_produced
+20 21 31 32 owned_by | 20 21 31 32 parent_organization | 31 32 20 21 owner_of
+28 28 19 20 founded_by | 28 28 19 20 creator
+49 49 54 54 product_or_material_produced
+6 7 4 5 product_or_material_produced
+5 6 14 14 product_or_material_produced
+0 0 6 6 product_or_material_produced
+10 10 15 15 product_or_material_produced
+13 13 14 14 product_or_material_produced
+21 23 6 6 product_or_material_produced
+6 7 33 33 industry
+47 47 51 51 parent_organization | 47 47 51 51 owned_by
+13 14 10 10 employer
+1 2 16 16 owner_of
+10 11 1 1 subsidiary | 10 11 1 1 business_division
+6 6 0 0 headquarters_location
+8 8 0 0 headquarters_location
+0 0 2 2 owner_of
+13 13 21 22 parent_organization | 15 16 21 22 manufacturer | 13 13 21 22 owned_by | 15 16 11 11 brand
+33 33 31 31 industry
+0 0 2 2 subsidiary | 2 2 0 0 parent_organization | 2 2 20 20 headquarters_location | 2 2 0 0 legal_form
+10 10 31 31 owned_by
+40 41 42 42 product_or_material_produced
+5 6 8 8 founded_by
+12 12 14 14 location_of_formation | 12 12 14 14 headquarters_location
+22 22 26 27 chief_executive_officer | 26 27 22 22 employer
+6 6 7 7 product_or_material_produced
+5 6 13 13 industry
+28 28 11 11 developer
+18 18 0 1 operator
+115 115 38 38 industry
+6 6 0 0 owned_by | 0 0 6 6 owner_of | 0 0 6 6 subsidiary
+19 19 5 8 stock_exchange | 26 27 5 8 stock_exchange
+8 8 9 9 industry
+0 0 9 9 product_or_material_produced
+21 22 20 20 position_held
+2 3 8 8 parent_organization | 4 4 2 3 developer | 4 4 2 3 owned_by
+31 32 7 7 product_or_material_produced
+4 6 0 1 owned_by
+3 3 24 24 product_or_material_produced
+0 1 15 16 chairperson
+6 6 5 5 developer | 6 6 5 5 manufacturer
+10 10 8 8 product_or_material_produced
+0 0 27 27 subsidiary | 27 27 0 0 parent_organization
+0 0 3 4 chief_executive_officer | 0 0 3 4 owned_by | 3 4 0 0 owner_of
+0 0 8 8 headquarters_location
+15 15 16 16 product_or_material_produced
+5 7 18 19 owner_of
+189 189 180 180 industry | 159 159 201 201 owned_by
+6 6 12 12 manufacturer
+2 3 0 0 employer | 0 0 2 3 founded_by
+18 18 3 3 product_or_material_produced | 18 18 5 8 owned_by
+14 14 0 0 owned_by | 14 14 0 0 parent_organization
+47 48 20 20 product_or_material_produced
+17 17 15 15 industry
+1 1 26 26 industry
+18 18 31 31 location_of_formation
+47 48 43 46 position_held
+3 3 18 21 stock_exchange
+15 15 3 3 industry
+43 44 26 26 product_or_material_produced | 55 55 26 26 industry
+7 8 4 5 employer
+22 22 3 4 operator
+22 22 17 17 operator
+15 16 11 12 currency
+15 16 30 30 headquarters_location
+15 15 26 26 product_or_material_produced
+5 6 19 21 member_of
+30 31 4 4 manufacturer
+11 12 4 4 industry
+2 3 0 0 employer | 2 3 0 0 owner_of
+1 1 17 17 industry
+20 20 13 14 developer
+5 5 38 38 original_broadcaster
+4 5 13 13 product_or_material_produced
+15 15 17 18 chairperson
+50 51 8 8 parent_organization | 8 8 50 51 subsidiary
+8 9 4 7 position_held
+20 20 18 18 product_or_material_produced | 20 20 0 3 owned_by
+25 25 9 10 operator
+11 11 19 19 industry
+2 2 0 0 industry
+35 35 32 32 parent_organization | 35 35 16 16 industry
+11 11 7 8 legal_form
+2 2 7 7 owned_by | 7 7 2 2 owner_of | 7 7 2 2 subsidiary
+16 17 26 26 industry
+3 4 0 0 owned_by
+2 3 5 6 headquarters_location
+16 17 22 22 subsidiary | 22 22 16 17 parent_organization | 22 22 16 17 owned_by
+2 3 0 0 position_held
+48 49 51 51 product_or_material_produced
+12 12 8 8 industry
+3 4 0 2 position_held
+3 4 0 2 position_held
+15 15 12 13 developer | 15 15 12 13 manufacturer
+0 0 10 10 owner_of
+0 0 2 3 product_or_material_produced | 0 0 2 3 industry
+20 21 17 17 product_or_material_produced
+1 1 14 14 product_or_material_produced
+30 31 28 28 employer
+15 15 18 18 product_or_material_produced
+18 19 21 22 owned_by | 18 19 21 22 parent_organization | 21 22 18 19 owner_of
+7 8 6 6 position_held
+40 40 42 43 chief_executive_officer | 40 40 42 43 founded_by
+18 19 12 12 product_or_material_produced
+1 2 18 18 owned_by
+7 8 20 20 headquarters_location
+20 20 12 12 industry
+21 21 19 19 product_or_material_produced
+9 10 4 6 parent_organization
+20 21 28 30 headquarters_location
+11 12 0 1 owner_of | 0 1 11 12 owned_by
+20 21 10 10 industry
+161 161 145 145 industry
+18 19 38 38 owned_by
+4 4 5 5 product_or_material_produced
+13 14 3 3 headquarters_location
+2 3 12 13 member_of
+28 28 21 21 currency
+16 17 10 10 industry
+14 15 10 10 product_or_material_produced
+8 9 6 6 parent_organization | 17 17 8 9 developer | 8 9 26 26 product_or_material_produced
+38 38 35 36 parent_organization
+22 23 1 1 industry
+8 8 18 19 product_or_material_produced
+9 9 44 44 industry
+5 5 14 14 headquarters_location
+3 4 18 18 product_or_material_produced
+15 15 13 13 owner_of | 13 13 15 15 owned_by
+16 17 3 3 headquarters_location
+0 1 23 24 industry
+3 3 0 0 owned_by
+15 16 10 10 developer
+0 0 10 10 industry
+0 0 2 2 parent_organization | 0 0 2 2 owned_by
+12 12 14 15 founded_by | 12 12 17 18 founded_by
+14 15 13 13 position_held
+19 19 9 9 product_or_material_produced
+16 16 12 13 chief_executive_officer | 16 16 12 13 founded_by
+13 13 0 0 headquarters_location
+61 61 49 49 distributed_by | 30 30 49 49 distributed_by | 71 71 49 49 distributed_by | 31 31 49 49 distributed_by
+13 14 8 10 employer
+6 6 24 24 legal_form
+13 13 6 6 owner_of
+16 16 5 5 owned_by
+14 15 11 11 product_or_material_produced
+64 64 21 21 industry
+16 16 97 99 legal_form
+7 7 0 0 headquarters_location
+3 4 1 2 owned_by | 3 4 1 2 parent_organization | 1 2 3 4 owner_of
+17 17 40 40 product_or_material_produced
+2 3 25 25 industry
+36 36 13 14 product_or_material_produced | 4 5 13 14 product_or_material_produced
+6 7 9 9 brand | 9 10 6 6 brand | 6 7 9 9 manufacturer | 9 10 6 6 manufacturer
+4 4 2 2 product_or_material_produced
+16 16 17 19 headquarters_location
+49 49 19 20 distribution_format | 14 14 19 20 distribution_format
+40 40 47 48 owned_by | 47 48 40 40 owner_of | 47 48 58 58 industry | 47 48 0 0 owner_of
+4 4 0 0 owned_by
+4 5 30 30 industry
+14 15 31 33 employer
+20 20 33 33 headquarters_location
+6 8 39 39 headquarters_location
+36 37 28 28 industry
+23 23 13 13 product_or_material_produced
+17 17 15 15 product_or_material_produced
+5 5 8 8 industry
+7 8 5 5 industry
+31 32 29 29 headquarters_location
+8 8 25 25 product_or_material_produced
+2 3 1 1 developer
+9 9 7 7 industry | 10 10 9 9 owned_by
+19 20 23 23 brand | 19 20 23 23 manufacturer
+12 12 51 51 location_of_formation
+1 1 17 17 industry
+3 4 0 1 employer
+5 5 7 8 founded_by | 5 5 7 8 director_/_manager
+41 41 34 35 owned_by | 34 35 41 41 owner_of | 41 41 34 35 parent_organization | 34 35 41 41 subsidiary
+25 25 41 41 product_or_material_produced
+24 25 21 23 position_held
+2 2 28 28 product_or_material_produced
+3 4 0 2 position_held
+12 12 15 16 chief_executive_officer | 12 12 15 16 owned_by | 15 16 12 12 owner_of
+35 35 23 24 location_of_formation
+16 16 10 11 product_or_material_produced | 16 16 10 11 industry
+7 7 22 22 product_or_material_produced | 7 7 0 1 headquarters_location
+12 12 9 10 product_or_material_produced
+7 8 10 10 developer
+36 36 28 29 product_or_material_produced
+18 19 0 1 product_or_material_produced
+12 13 4 4 owned_by | 12 13 4 4 location_of_formation
+9 9 5 5 distributed_by
+22 22 32 32 currency
+5 6 0 0 location_of_formation
+1 1 10 12 owned_by
+12 12 0 0 headquarters_location
+17 17 12 12 legal_form
+36 37 33 33 employer | 36 37 33 33 owner_of
+11 11 12 13 product_or_material_produced
+7 7 0 0 headquarters_location
+25 25 47 47 headquarters_location
+4 5 1 1 developer
+22 22 1 1 product_or_material_produced
+5 5 0 0 operator
+23 23 21 21 industry
+27 27 28 28 product_or_material_produced
+7 7 10 10 parent_organization
+7 7 10 10 owned_by | 10 10 7 7 owner_of
+29 29 43 43 legal_form
+0 0 4 4 owner_of
+7 7 32 32 product_or_material_produced
+8 8 3 4 owned_by | 3 4 8 8 owner_of | 8 8 3 4 parent_organization | 3 4 8 8 subsidiary
+0 0 2 3 chief_executive_officer
+2 2 11 11 owner_of
+32 32 8 8 headquarters_location | 32 32 8 8 location_of_formation
+5 5 4 4 distributed_by
+35 36 32 32 employer
+44 46 37 37 headquarters_location
+5 5 37 37 currency
+9 10 7 7 product_or_material_produced
+13 13 10 10 product_or_material_produced
+3 4 0 2 position_held | 24 25 9 9 developer | 3 4 9 9 employer
+19 19 1 1 product_or_material_produced
+6 6 21 21 industry
+14 14 10 10 owned_by | 10 10 14 14 owner_of | 14 14 10 10 manufacturer
+73 73 38 38 developer | 38 38 73 73 subsidiary
+29 29 11 11 location_of_formation
+1 1 10 10 headquarters_location
+8 8 32 32 industry
+17 18 7 8 manufacturer
+40 40 16 16 owner_of
+3 3 6 6 original_broadcaster
+5 5 3 3 location_of_formation
+3 3 0 0 operator
+22 23 0 0 developer
+1 2 5 5 product_or_material_produced
+24 25 19 22 employer
+7 7 51 51 industry
+0 0 4 4 location_of_formation
+10 11 1 1 product_or_material_produced
+12 12 14 15 operator
+4 4 0 0 industry
+6 7 2 2 product_or_material_produced
+4 4 25 25 product_or_material_produced
+6 8 31 32 headquarters_location
+0 0 14 14 owned_by | 14 14 0 0 owner_of | 14 14 0 0 subsidiary | 0 0 7 8 legal_form
+0 1 19 20 subsidiary
+0 0 3 4 chief_executive_officer | 3 4 0 0 employer
+8 9 6 7 manufacturer
+10 10 35 35 industry
+11 11 14 14 product_or_material_produced
+45 46 42 44 position_held
+23 24 19 19 employer
+76 76 11 11 product_or_material_produced
+6 7 9 9 headquarters_location
+17 18 21 21 parent_organization | 21 21 17 18 subsidiary
+11 12 17 17 product_or_material_produced
+23 24 21 21 employer | 23 24 21 21 owner_of
+2 3 25 25 owned_by | 37 38 32 32 publisher | 2 3 25 25 location_of_formation | 8 9 22 25 employer
+40 41 28 28 developer
+12 13 15 15 employer
+52 53 50 51 industry
+23 23 16 18 distribution_format
+27 27 3 4 chairperson
+16 17 30 30 owned_by
+13 13 28 28 publisher
+0 1 6 7 founded_by | 0 1 24 28 product_or_material_produced | 6 7 0 1 employer | 0 1 9 10 founded_by
+2 3 1 1 position_held
+5 5 10 10 industry
+0 0 4 5 chairperson
+4 4 6 8 parent_organization | 4 4 6 8 owned_by
+1 1 17 17 industry
+22 22 3 4 owned_by | 22 22 23 23 product_or_material_produced | 22 22 3 4 parent_organization
+0 0 13 13 operator
+25 25 0 1 headquarters_location
+2 2 0 0 industry
+7 8 2 2 owned_by | 2 2 6 8 owner_of | 2 2 6 8 business_division | 2 2 7 8 owner_of
+13 14 5 5 product_or_material_produced
+0 1 26 26 industry
+8 8 29 29 owned_by
+10 10 7 7 parent_organization | 10 10 7 7 owned_by
+21 21 4 4 industry
+14 14 11 11 industry
+29 30 19 19 developer
+3 4 5 5 legal_form
+11 12 7 8 subsidiary
+3 4 0 0 distributed_by
+2 3 7 7 parent_organization | 7 7 2 3 subsidiary
+8 9 6 6 employer
+3 3 4 4 product_or_material_produced
+23 24 45 45 product_or_material_produced
+7 7 1 1 developer | 7 7 1 1 owned_by
+73 73 75 76 subsidiary
+23 24 8 8 product_or_material_produced
+44 44 43 43 headquarters_location
+4 4 3 3 brand | 4 4 3 3 manufacturer
+4 5 22 23 industry
+17 17 45 45 owner_of
+16 17 14 14 original_broadcaster
+21 21 1 1 owned_by
+6 8 14 15 founded_by | 6 8 14 15 subsidiary
+21 21 11 11 industry
+27 27 26 26 developer
+14 14 9 9 product_or_material_produced
+2 2 104 104 headquarters_location | 74 74 104 104 headquarters_location | 18 19 104 104 headquarters_location
+7 8 5 5 employer
+8 9 1 2 founded_by
+15 16 13 14 position_held
+32 32 14 14 headquarters_location
+6 6 9 10 chief_executive_officer | 6 6 9 10 owned_by | 9 10 6 6 owner_of
+12 12 13 13 subsidiary | 13 13 12 12 parent_organization | 13 13 12 12 legal_form
+11 11 33 33 industry
+11 12 13 13 legal_form
+0 0 4 4 industry
+33 34 47 49 member_of
+8 8 0 1 operator
+3 3 4 5 product_or_material_produced | 3 3 4 5 industry
+12 12 0 0 parent_organization
+22 22 34 34 product_or_material_produced
+1 1 6 6 owned_by
+24 24 18 19 owner_of | 18 19 24 24 owned_by
+7 8 4 6 position_held
+9 10 37 38 owned_by
+3 4 1 2 product_or_material_produced
+9 10 16 17 legal_form
+10 11 14 15 subsidiary
+23 24 19 22 position_held
+24 24 0 0 product_or_material_produced
+8 9 4 4 owned_by | 4 4 8 9 owner_of | 8 9 4 4 parent_organization | 4 4 8 9 subsidiary
+3 3 9 9 owned_by | 9 9 3 3 owner_of | 9 9 3 3 subsidiary
+52 52 48 48 parent_organization | 90 90 18 19 product_or_material_produced | 90 90 48 48 owned_by | 90 90 48 48 parent_organization
+11 11 21 21 headquarters_location
+6 7 9 9 headquarters_location
+5 5 4 4 owned_by | 5 5 4 4 parent_organization | 4 4 5 5 subsidiary
+7 7 25 26 chairperson
+4 5 13 14 headquarters_location | 4 5 13 13 location_of_formation | 21 21 13 14 headquarters_location
+11 11 8 8 parent_organization | 8 8 11 11 subsidiary
+2 3 16 16 industry
+75 75 111 111 industry
+2 3 17 18 headquarters_location
+21 21 10 10 product_or_material_produced
+4 5 0 3 position_held
+15 15 9 9 operator
+9 9 14 14 industry
+17 17 12 12 location_of_formation
+13 13 14 14 legal_form
+19 20 22 23 founded_by
+11 11 23 23 developer
+23 23 7 7 member_of
+3 4 11 11 product_or_material_produced
+2 3 1 1 manufacturer
+2 2 19 19 owned_by
+9 9 5 5 operator
+17 18 0 0 original_broadcaster
+50 50 1 1 creator
+6 7 9 9 headquarters_location
+43 43 34 34 product_or_material_produced
+2 2 0 0 parent_organization | 2 2 0 0 owned_by | 0 0 2 2 subsidiary | 2 2 0 0 founded_by
+5 5 7 7 owner_of
+11 11 7 7 product_or_material_produced
+8 9 1 1 developer | 8 9 1 1 manufacturer
+0 0 12 12 industry
+8 9 20 21 product_or_material_produced
+19 20 41 42 distribution_format
+5 5 11 11 product_or_material_produced
+27 27 47 47 industry
+3 3 0 1 industry
+2 3 1 1 developer
+10 10 20 20 product_or_material_produced
+5 5 3 3 industry
+2 3 4 4 product_or_material_produced
+28 29 17 17 employer
+4 4 2 2 product_or_material_produced
+13 13 15 15 product_or_material_produced
+9 10 4 4 position_held
+13 14 8 11 employer
+16 16 7 7 product_or_material_produced
+0 0 20 20 original_broadcaster
+12 12 7 7 distributed_by
+26 27 28 28 industry
+14 15 7 7 product_or_material_produced | 13 15 28 29 product_or_material_produced
+12 12 15 18 stock_exchange
+13 13 34 34 industry
+1 1 37 37 owner_of | 1 1 34 34 owner_of
+22 22 8 9 owned_by | 8 9 22 22 owner_of | 22 22 8 9 parent_organization | 8 9 22 22 subsidiary
+2 2 4 4 owned_by | 4 4 2 2 owner_of | 4 4 2 2 subsidiary
+23 24 11 11 product_or_material_produced
+3 3 21 21 headquarters_location
+4 5 27 28 product_or_material_produced
+18 18 7 7 product_or_material_produced
+6 7 3 3 original_broadcaster
+11 12 6 6 developer | 11 12 6 6 manufacturer | 11 12 8 8 developer
+22 23 8 8 product_or_material_produced
+17 18 19 19 product_or_material_produced
+2 2 4 5 distribution_format
+18 19 20 20 product_or_material_produced
+18 19 14 14 publisher
+0 0 1 1 product_or_material_produced
+9 9 26 26 product_or_material_produced
+24 24 8 8 industry
+7 7 17 17 original_broadcaster
+47 48 44 46 position_held
+29 30 0 0 headquarters_location
+6 7 0 3 employer
+6 6 4 4 product_or_material_produced
+19 20 17 17 product_or_material_produced
+18 19 30 30 headquarters_location
+11 11 5 6 chairperson
+38 38 5 6 product_or_material_produced | 38 38 5 6 industry
+1 1 3 3 industry
+11 12 20 20 original_broadcaster
+53 54 17 17 location_of_formation | 53 54 17 17 headquarters_location
+10 10 13 13 product_or_material_produced
+29 29 5 5 industry
+57 58 17 17 product_or_material_produced
+4 4 41 41 product_or_material_produced
+24 24 17 17 owned_by
+31 31 25 25 headquarters_location
+5 6 7 8 owner_of | 7 8 5 6 owned_by
+3 5 18 18 industry
+50 51 39 39 brand | 50 51 39 39 manufacturer
+19 19 9 10 operator
+8 9 22 24 location_of_formation | 8 9 22 24 headquarters_location
+36 36 5 5 product_or_material_produced
+6 7 4 4 owner_of | 6 7 4 4 brand
+10 11 1 1 subsidiary | 10 11 1 1 business_division
+75 75 77 78 subsidiary
+8 9 24 24 legal_form
+32 33 26 26 developer
+18 19 7 7 developer
+8 8 1 1 stock_exchange
+9 10 0 0 parent_organization
+4 4 2 2 product_or_material_produced
+24 24 9 13 owned_by
+0 1 11 11 industry
+5 5 11 11 developer
+0 0 9 10 industry
+11 11 22 22 developer | 11 11 22 22 owned_by
+0 1 17 18 industry
+15 15 16 16 industry
+4 4 1 2 industry
+9 9 6 6 headquarters_location
+6 6 23 23 product_or_material_produced | 6 6 39 39 product_or_material_produced
+0 0 8 8 product_or_material_produced
+12 13 8 8 employer
+9 9 7 7 subsidiary | 7 7 9 9 parent_organization
+11 12 4 4 headquarters_location
+0 0 10 11 founded_by | 0 0 10 11 creator
+7 8 0 2 employer
+15 15 8 9 product_or_material_produced
+12 14 2 2 industry
+9 10 0 0 subsidiary
+9 9 48 49 founded_by | 9 9 48 49 creator
+6 7 28 28 headquarters_location
+4 4 0 0 industry
+7 7 8 8 product_or_material_produced
+5 6 4 4 industry
+17 18 28 29 product_or_material_produced
+0 0 12 12 product_or_material_produced
+5 6 2 2 employer
+9 10 4 4 employer
+0 0 7 9 subsidiary | 7 9 0 0 owned_by | 7 9 0 0 parent_organization
+0 1 6 8 owned_by | 0 1 6 8 parent_organization
+7 7 16 16 product_or_material_produced
+10 10 11 11 product_or_material_produced
+34 34 12 13 operator
+1 1 5 5 industry
+2 3 5 6 headquarters_location
+13 13 18 18 owner_of
+10 11 8 9 position_held
+0 0 10 11 owner_of
+3 4 23 23 location_of_formation | 3 4 23 23 headquarters_location
+8 8 5 6 industry
+27 27 79 79 owner_of | 27 27 32 32 owner_of | 27 27 79 79 subsidiary
+4 5 8 10 employer
+22 22 12 13 headquarters_location
+0 1 3 3 employer
+35 35 38 38 headquarters_location
+23 23 4 6 parent_organization
+36 36 38 38 product_or_material_produced
+15 15 0 0 industry
+22 22 25 25 industry
+2 2 12 12 industry
+7 7 33 34 parent_organization | 26 27 33 34 manufacturer | 7 7 33 34 owned_by
+10 11 5 5 industry
+30 31 26 26 employer
+2 3 5 6 headquarters_location
+32 32 9 9 headquarters_location | 32 32 9 9 location_of_formation
+14 16 26 26 manufacturer
+11 11 1 1 product_or_material_produced | 15 16 26 26 product_or_material_produced
+4 4 1 2 product_or_material_produced | 10 11 1 2 industry | 4 4 1 2 industry
+32 33 9 10 parent_organization
+4 4 36 36 headquarters_location
+20 21 35 35 product_or_material_produced
+34 34 32 33 industry
+28 29 19 19 product_or_material_produced
+2 3 0 0 developer
+4 4 1 1 industry
+18 18 1 2 owned_by | 18 18 1 2 operator
+6 7 0 0 employer | 6 7 0 0 owner_of
+43 43 41 41 operator
+32 32 13 13 platform
+19 19 0 1 parent_organization
+12 12 4 4 owner_of | 4 4 12 12 owned_by
+14 14 11 11 parent_organization
+7 7 0 0 headquarters_location
+73 74 105 105 product_or_material_produced
+13 13 14 15 subsidiary
+22 22 26 26 owner_of
+2 2 3 3 owner_of
+4 5 8 8 headquarters_location | 4 5 8 8 location_of_formation
+34 34 2 3 founded_by
+7 8 0 0 developer
+22 23 9 9 employer
+9 10 6 8 position_held
+26 27 13 13 product_or_material_produced
+6 6 13 13 headquarters_location
+1 1 11 12 headquarters_location
+10 10 7 7 industry
+5 6 3 3 employer | 5 6 3 3 owner_of
+2 2 4 4 creator
+31 32 4 4 headquarters_location
+9 9 12 12 location_of_formation | 34 34 12 12 location_of_formation
+20 20 24 24 parent_organization
+15 15 10 10 owned_by | 10 10 15 15 owner_of | 10 10 15 15 subsidiary
+9 9 0 1 chief_executive_officer | 0 1 9 9 employer
+27 27 25 25 product_or_material_produced
+10 10 7 7 industry | 12 12 7 7 industry
+0 0 4 4 owned_by
+9 9 6 6 owned_by
+3 3 26 27 parent_organization | 3 3 26 27 owned_by
+14 14 23 23 distributed_by
+24 24 36 36 subsidiary
+0 1 10 10 product_or_material_produced
+10 10 17 17 product_or_material_produced
+9 10 6 6 employer
+0 0 3 4 chief_executive_officer | 3 4 0 0 employer
+38 39 8 8 owner_of
+15 15 3 3 brand | 15 15 3 3 manufacturer
+16 17 11 14 employer
+69 70 36 36 product_or_material_produced
+13 13 16 17 industry
+13 13 7 7 industry
+10 10 11 11 legal_form
+18 19 1 1 business_division
+21 22 38 38 product_or_material_produced
+32 33 24 24 industry
+1 1 3 3 industry
+25 26 10 10 owner_of
+6 7 11 12 chief_executive_officer
+11 11 5 5 product_or_material_produced
+30 30 34 35 owned_by | 30 30 34 35 operator
+14 14 10 10 industry
+2 3 0 0 employer
+2 3 9 9 industry
+54 54 8 8 industry
+17 17 12 12 parent_organization | 12 12 17 17 subsidiary
+34 34 7 8 product_or_material_produced | 4 4 12 12 industry
+16 17 35 35 product_or_material_produced
+90 90 32 32 industry
+18 19 7 7 headquarters_location
+2 3 0 0 employer
+0 1 14 14 headquarters_location
+4 4 9 9 headquarters_location
+15 15 56 57 product_or_material_produced
+19 19 16 17 product_or_material_produced
+2 2 7 7 industry
+33 33 21 22 location_of_formation
+10 10 12 13 product_or_material_produced
+10 11 18 18 owner_of
+16 16 3 4 chairperson | 16 16 25 25 headquarters_location
+15 16 10 11 employer
+2 3 23 23 industry
+12 12 14 14 product_or_material_produced | 12 12 0 2 parent_organization | 12 12 0 2 owned_by
+6 6 30 30 industry
+7 7 163 163 industry
+0 0 7 7 publisher
+17 18 4 5 member_of
+40 40 36 37 industry | 30 31 36 37 industry
+6 6 0 1 headquarters_location
+2 3 0 1 position_held
+28 29 16 16 headquarters_location | 3 3 16 16 location_of_formation
+2 2 8 8 industry
+12 12 10 10 owned_by | 12 13 10 10 developer
+29 29 8 8 industry
+8 10 3 4 legal_form | 8 10 15 16 subsidiary
+13 13 14 14 product_or_material_produced
+6 6 8 8 headquarters_location
+10 10 8 8 owner_of
+30 30 18 18 industry
+0 0 19 20 owned_by | 0 0 19 20 parent_organization
+2 3 5 6 headquarters_location
+4 4 27 28 parent_organization | 4 4 27 28 owned_by | 4 4 0 0 headquarters_location
+9 10 6 6 subsidiary
+0 1 8 8 product_or_material_produced
+17 18 12 13 product_or_material_produced
+17 18 9 9 location_of_formation
+17 18 8 9 employer
+5 5 14 14 parent_organization
+4 4 7 8 founded_by | 4 4 7 8 creator
+13 13 2 3 chairperson
+11 11 5 5 parent_organization | 11 11 5 5 owned_by
+10 11 12 12 industry
+23 24 16 16 owned_by
+2 2 23 23 stock_exchange | 4 4 23 23 stock_exchange
+33 33 24 25 parent_organization | 33 33 24 25 owned_by
+15 16 13 13 distributed_by
+19 19 24 25 developer | 19 19 24 25 manufacturer
+2 2 0 0 industry
+3 3 17 17 industry
+12 12 14 14 parent_organization
+13 14 20 23 member_of
+11 11 9 9 parent_organization | 11 11 9 9 owned_by
+19 20 31 32 owner_of
+7 7 13 13 product_or_material_produced
+12 12 11 11 operator
+5 5 6 6 product_or_material_produced
+11 11 9 9 product_or_material_produced
+3 4 10 11 location_of_formation
+18 18 7 7 industry | 15 15 7 7 industry | 15 15 18 18 owned_by
+44 44 25 25 product_or_material_produced
+19 19 7 7 owned_by
+5 6 4 4 creator | 5 6 4 4 owned_by
+112 112 160 160 industry
+19 20 30 30 parent_organization | 30 30 19 20 owner_of | 19 20 30 30 owned_by
+3 3 0 0 operator
+1 1 2 3 product_or_material_produced
+43 43 53 53 product_or_material_produced
+14 14 9 9 product_or_material_produced
+53 54 45 48 employer
+9 10 0 2 parent_organization
+23 23 8 9 chairperson
+26 27 17 19 employer
+11 11 1 1 parent_organization
+7 7 0 0 headquarters_location
+19 19 5 6 operator | 19 19 5 6 owned_by | 5 6 19 19 product_or_material_produced
+18 19 6 7 chairperson
+22 22 23 23 product_or_material_produced
+25 25 11 12 owned_by | 11 12 25 25 owner_of | 25 25 11 12 parent_organization | 11 12 25 25 subsidiary
+4 4 0 0 industry
+1 1 11 12 headquarters_location
+16 16 8 8 product_or_material_produced
+9 9 10 10 industry
+21 21 6 7 manufacturer
+20 20 32 32 location_of_formation
+41 42 33 36 employer
+2 3 8 9 chief_executive_officer | 8 9 2 3 employer
+0 0 4 5 industry
+5 6 3 4 platform
+17 17 5 5 product_or_material_produced
+15 16 4 4 owned_by
+25 26 18 18 product_or_material_produced
+0 1 7 7 product_or_material_produced
+30 30 1 2 parent_organization | 30 30 1 2 owned_by
+29 29 22 22 product_or_material_produced
+18 19 4 4 parent_organization | 4 4 18 19 owner_of | 18 19 4 4 owned_by
+37 38 28 29 employer
+0 0 9 9 owned_by | 0 0 9 9 parent_organization | 9 9 0 0 subsidiary
+0 0 9 9 industry
+4 5 29 29 product_or_material_produced
+95 96 97 97 product_or_material_produced
+2 2 1 1 owned_by
+5 6 0 3 employer
+4 5 0 1 industry
+18 19 0 0 headquarters_location
+17 18 15 15 employer
+5 6 0 1 headquarters_location
+13 13 2 2 industry
+3 4 0 0 employer
+14 14 25 25 currency
+55 55 104 104 owner_of | 55 55 60 60 owner_of | 55 55 104 104 subsidiary
+6 7 9 9 headquarters_location | 6 7 81 81 industry
+12 12 31 31 industry
+1 1 9 9 stock_exchange
+11 12 32 33 manufacturer
+34 35 20 20 employer
+5 5 10 10 owner_of
+13 13 12 12 manufacturer
+18 19 20 20 legal_form
+21 22 4 6 employer
+11 12 0 1 owner_of | 0 1 11 12 owned_by
+14 15 38 38 industry
+18 18 41 41 industry
+15 15 1 1 headquarters_location
+17 17 6 6 owned_by | 17 17 22 22 headquarters_location
+16 16 8 8 location_of_formation
+18 18 20 21 founded_by
+0 0 5 5 industry
+27 27 25 25 industry
+8 8 11 11 manufacturer
+5 6 14 14 developer | 5 6 14 14 founded_by | 5 6 14 14 parent_organization
+3 3 13 13 owner_of
+2 3 13 15 parent_organization
+19 19 2 2 owned_by | 2 2 19 19 owner_of
+17 18 13 13 parent_organization
+21 21 5 5 owned_by
+11 11 1 3 owned_by
+20 21 29 29 manufacturer | 20 20 29 29 parent_organization | 20 20 29 29 owned_by
+3 3 6 7 distribution_format
+109 109 252 252 headquarters_location
+6 6 0 0 industry
+10 11 6 7 industry
+13 13 3 3 parent_organization
+0 1 3 4 product_or_material_produced | 3 4 0 1 developer | 3 4 0 1 owned_by
+9 9 14 16 founded_by
+0 1 14 14 subsidiary | 0 1 16 17 owner_of | 0 1 16 17 subsidiary | 0 1 14 14 owner_of
+36 36 38 39 employer
+68 69 81 83 member_of
+0 0 3 4 chief_executive_officer | 3 4 0 0 employer
+37 37 16 16 distribution_format
+3 4 0 0 developer
+4 5 2 3 industry
+0 1 3 4 chairperson
+21 22 17 17 parent_organization | 17 17 21 22 subsidiary
+1 2 6 6 industry
+15 15 10 10 industry
+5 5 6 6 industry
+0 0 10 10 stock_exchange
+5 6 17 17 industry
+17 18 12 13 developer
+32 32 35 37 distribution_format | 18 18 35 37 distribution_format | 9 9 35 37 distribution_format | 31 31 35 37 distribution_format
+6 7 4 5 industry
+5 6 4 4 industry
+9 9 12 12 owner_of
+6 7 0 0 owned_by
+16 16 23 23 currency
+9 10 7 7 industry
+40 41 15 15 subsidiary | 40 41 15 15 business_division
+4 4 0 0 stock_exchange
+5 5 6 6 owner_of
+3 4 0 1 founded_by | 3 4 0 1 director_/_manager
+8 8 11 12 chief_executive_officer | 11 12 8 8 employer
+81 81 13 13 owned_by | 13 13 81 81 subsidiary | 13 13 52 53 subsidiary
+7 7 5 5 owned_by | 5 5 7 7 owner_of
+21 21 0 0 owned_by | 21 21 0 0 parent_organization
+34 34 13 13 currency
+7 7 8 8 parent_organization | 7 7 8 8 owned_by
+2 3 0 0 employer
+17 18 3 4 employer
+0 0 3 4 owner_of
+13 14 0 0 employer
+18 18 20 21 chairperson
+0 1 5 5 parent_organization
+5 6 13 14 founded_by | 5 6 13 14 chief_executive_officer | 13 14 7 9 owner_of
+9 9 13 13 parent_organization | 9 9 13 13 owned_by
+7 8 14 14 location_of_formation | 7 8 14 14 headquarters_location
+53 54 10 10 location_of_formation
+21 22 19 19 owned_by
+10 10 14 15 manufacturer | 10 10 12 12 manufacturer
+0 0 1 1 owner_of
+19 20 16 17 founded_by | 16 17 19 20 employer
+11 11 16 17 director_/_manager | 16 17 13 15 position_held
+16 17 25 26 owned_by | 16 17 25 26 parent_organization | 25 26 16 17 owner_of
+14 14 8 8 industry | 14 14 0 0 parent_organization
+15 16 12 12 employer | 15 16 12 12 owner_of
+2 2 6 6 location_of_formation
+4 5 0 0 manufacturer | 4 5 0 0 developer
+2 2 10 10 location_of_formation
+6 6 16 17 owned_by | 6 6 7 7 product_or_material_produced | 6 6 16 17 parent_organization
+21 21 34 34 owned_by
+2 2 15 15 parent_organization | 2 2 15 15 manufacturer
+16 16 10 10 parent_organization
+7 7 9 9 owner_of
+23 24 19 19 location_of_formation
+16 16 7 7 owned_by | 9 10 5 5 industry
+9 9 24 24 platform
+44 44 10 10 parent_organization
+25 25 23 23 location_of_formation
+17 17 14 14 owned_by
+6 6 5 5 platform
+50 51 16 16 owned_by | 50 51 16 16 parent_organization
+9 9 11 12 director_/_manager | 9 9 11 12 chief_executive_officer
+19 19 8 8 owner_of
+59 60 50 50 owned_by
+18 19 4 4 employer | 4 4 18 19 chief_executive_officer
+21 22 40 41 owned_by | 21 22 40 41 parent_organization | 40 41 21 22 owner_of
+25 25 5 6 parent_organization | 25 25 5 6 owned_by
+4 4 0 0 manufacturer | 4 4 0 0 developer
+13 13 4 4 owned_by | 4 4 13 13 owner_of | 4 4 13 13 subsidiary
+8 9 5 5 parent_organization | 8 9 5 5 owned_by | 5 6 8 8 owned_by | 5 6 8 8 parent_organization
+12 12 9 9 owned_by | 12 12 9 9 manufacturer
+33 34 51 52 creator | 71 72 43 43 product_or_material_produced | 39 40 51 52 creator
+6 7 4 4 employer | 4 4 6 7 chief_executive_officer
+20 21 0 0 owned_by
+24 25 21 22 employer | 21 22 24 25 chief_executive_officer | 21 22 24 25 founded_by
+7 8 2 3 chairperson | 7 8 2 3 founded_by
+13 13 15 20 subsidiary
+11 11 2 3 owned_by | 11 11 2 3 operator
+5 5 0 1 parent_organization
+28 29 2 2 owned_by
+24 25 42 42 subsidiary | 24 25 42 42 owner_of
+16 16 14 14 subsidiary | 14 14 16 16 parent_organization
+18 19 21 21 owned_by | 21 22 18 18 creator | 18 19 21 21 developer | 21 22 18 18 developer
+0 0 2 3 chairperson
+7 7 6 6 owned_by
+2 3 18 19 subsidiary | 18 19 2 3 parent_organization
+7 7 19 20 chief_executive_officer | 19 20 7 7 employer
+15 15 4 5 parent_organization | 15 15 4 5 owned_by
+3 3 0 0 owned_by
+2 2 14 14 location_of_formation
+0 0 15 15 owned_by | 0 0 15 15 subsidiary | 0 0 15 15 parent_organization
+14 14 18 19 owned_by
+14 14 15 15 owned_by | 14 14 15 15 subsidiary | 14 14 15 15 parent_organization
+25 25 29 30 founded_by | 25 25 29 30 creator
+12 13 1 1 manufacturer
+18 18 20 20 subsidiary
+0 0 14 15 owner_of
+8 8 0 0 headquarters_location | 13 13 5 6 distribution_format
+7 7 15 15 manufacturer
+87 88 103 105 location_of_formation | 87 88 103 105 headquarters_location | 83 83 103 105 location_of_formation | 83 83 103 105 headquarters_location
+32 32 27 28 chairperson
+13 14 49 50 headquarters_location | 13 14 49 49 location_of_formation
+18 19 8 8 developer | 18 19 8 8 manufacturer | 18 19 10 10 developer
+7 8 15 15 location_of_formation | 7 8 15 15 headquarters_location
+15 15 24 24 subsidiary
+2 2 28 28 subsidiary | 2 2 31 31 headquarters_location
+0 1 4 4 parent_organization | 4 4 0 1 subsidiary
+17 18 16 16 creator | 17 18 16 16 owned_by
+11 12 4 4 parent_organization
+3 3 7 7 distributed_by
+86 86 88 89 subsidiary
+10 10 2 2 owned_by
+34 34 28 30 owner_of | 34 34 28 30 subsidiary
+4 4 3 3 manufacturer | 4 4 3 3 developer
+30 30 18 19 subsidiary
+2 3 0 1 manufacturer
+10 10 0 0 owned_by | 10 10 0 0 manufacturer
+7 7 12 13 legal_form | 11 11 7 7 owned_by
+4 4 10 10 product_or_material_produced | 4 4 2 2 owner_of
+7 7 16 16 owner_of
+1 1 7 7 owned_by | 7 7 1 1 owner_of
+0 1 12 12 stock_exchange
+10 11 9 9 creator | 10 11 9 9 owned_by
+22 23 0 0 owned_by
+11 12 0 0 parent_organization | 0 0 11 12 subsidiary
+23 24 19 21 parent_organization | 19 21 23 24 subsidiary | 23 24 19 21 owned_by
+8 9 12 14 parent_organization
+5 5 15 15 owner_of
+6 6 9 9 owner_of
+8 9 16 17 founded_by
+13 13 2 2 parent_organization | 13 13 2 2 owned_by
+6 6 38 38 subsidiary
+4 4 8 8 owned_by | 8 8 4 4 owner_of | 8 8 4 4 subsidiary
+11 12 10 10 parent_organization
+3 3 0 1 founded_by
+4 4 15 16 parent_organization | 0 0 4 4 subsidiary | 0 0 20 21 chief_executive_officer
+19 19 7 8 founded_by
+5 5 24 24 owner_of
+3 3 5 6 founded_by
+2 2 8 8 subsidiary | 8 8 2 2 parent_organization | 8 8 2 2 legal_form
+7 7 9 10 director_/_manager | 7 7 9 10 founded_by
+5 6 1 1 manufacturer | 5 6 1 1 brand
+11 11 13 14 chief_executive_officer | 11 11 13 14 founded_by
+8 9 11 12 parent_organization | 11 12 8 9 owner_of | 8 9 11 12 owned_by | 11 12 8 9 subsidiary
+4 5 23 23 brand | 4 5 23 23 manufacturer
+0 0 3 4 chief_executive_officer | 0 0 3 4 owned_by | 3 4 0 0 owner_of
+11 11 75 76 owner_of | 11 11 75 76 subsidiary | 75 76 11 11 owned_by | 75 76 11 11 parent_organization
+6 7 13 13 brand
+0 0 8 9 subsidiary | 0 0 6 6 owner_of
+3 4 2 2 creator
+12 13 16 16 subsidiary
+6 6 86 86 stock_exchange
+6 7 1 1 manufacturer | 6 7 1 1 brand
+4 5 3 3 creator
+5 5 23 23 product_or_material_produced | 21 22 5 5 owned_by | 5 5 21 22 owner_of
+5 5 15 15 owner_of
+2 2 17 18 subsidiary | 17 18 2 2 parent_organization
+29 30 3 3 brand
+0 1 10 10 brand | 0 1 10 10 manufacturer
+10 10 0 0 developer | 0 0 10 10 subsidiary
+0 0 5 5 owner_of
+10 10 2 2 subsidiary | 2 2 10 10 parent_organization | 2 2 10 10 owned_by
+2 2 14 14 owner_of
+19 20 12 14 owner_of
+15 16 12 12 employer | 15 16 12 12 owner_of
+14 14 16 17 chief_executive_officer | 14 14 16 17 director_/_manager
+12 12 10 10 owned_by | 12 12 10 10 subsidiary | 12 12 10 10 parent_organization
+8 8 0 1 owned_by | 0 1 8 8 owner_of | 8 8 0 1 parent_organization | 0 1 8 8 subsidiary
+46 47 30 30 brand
+11 11 8 9 subsidiary
+2 2 0 0 parent_organization | 2 2 0 0 owned_by | 0 0 2 2 subsidiary | 2 2 0 0 founded_by
+6 6 8 9 subsidiary
+26 27 9 9 subsidiary | 26 27 9 9 business_division
+0 0 2 3 founded_by | 0 0 2 3 creator
+10 11 17 17 subsidiary | 17 17 10 11 parent_organization | 17 17 10 11 owned_by
+7 8 10 11 owner_of | 10 11 7 8 owned_by | 10 11 7 8 director_/_manager | 10 11 7 8 founded_by
+7 7 1 1 owned_by | 1 1 7 7 owner_of | 1 1 7 7 subsidiary | 1 1 20 20 legal_form
+7 7 0 1 creator
+0 0 5 6 subsidiary
+0 1 8 8 subsidiary | 0 1 8 8 business_division
+27 28 7 7 stock_exchange
+24 24 12 12 stock_exchange
+28 29 26 26 subsidiary | 28 29 26 26 business_division
+5 6 1 1 brand
+18 18 1 1 stock_exchange
+9 9 5 7 stock_exchange | 9 9 5 5 headquarters_location
+3 3 7 9 stock_exchange | 3 3 24 24 industry | 26 26 3 3 owned_by
+21 21 23 24 founded_by | 21 21 23 24 owned_by | 21 21 23 24 director_/_manager
+10 10 20 20 headquarters_location | 10 10 20 22 stock_exchange
+0 0 13 13 stock_exchange
+6 7 8 8 stock_exchange
+1 2 11 14 stock_exchange
+32 33 9 9 subsidiary | 32 33 9 9 business_division
+21 22 9 9 stock_exchange
+20 20 11 11 stock_exchange
+13 13 3 3 stock_exchange
+0 0 4 6 stock_exchange
