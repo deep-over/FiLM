@@ -10,7 +10,7 @@ import transformers
 from transformers import AutoConfig, AutoModel, AutoTokenizer
 
 class PhraseBankDataset(Dataset) :
-    def __init__(self, path, max_length, config) :
+    def __init__(self, path, config) :
         '''
         path(str) : csv path
         max_length : padding할 최대 길이
@@ -23,7 +23,7 @@ class PhraseBankDataset(Dataset) :
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         
         # max_length
-        self.max_length = max_length
+        self.max_length = config.max_length
         # labels_dict : string형의 라벨을 정수로 변환
         self.labels_dict = {
             'negative' : 0,
@@ -97,14 +97,13 @@ class PhraseBankDataModule(pl.LightningDataModule) :
         self.test_path = path['test']
         
         self.batch_size = config.batch_size
-        self.max_length = config.max_length
         self.num_workers = config.num_workers
         self.config = config
 
     def setup(self, stage=None) :
-        self.set_train = PhraseBankDataset(self.train_path, max_length=self.max_length, config=self.config)
-        self.set_valid = PhraseBankDataset(self.valid_path, max_length=self.max_length, config=self.config)
-        self.set_test = PhraseBankDataset(self.test_path, max_length=self.max_length, config=self.config)
+        self.set_train = PhraseBankDataset(self.train_path, config=self.config)
+        self.set_valid = PhraseBankDataset(self.valid_path, config=self.config)
+        self.set_test = PhraseBankDataset(self.test_path, config=self.config)
 
     def train_dataloader(self) :
         train = DataLoader(self.set_train, batch_size=self.batch_size, num_workers=self.num_workers, shuffle=True)
