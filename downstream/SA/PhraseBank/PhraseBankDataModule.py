@@ -39,7 +39,7 @@ class PhraseBankDataset(Dataset) :
         df.drop_duplicates(subset=['sentences'], inplace=True)
         self.dataset = df
         
-        self.cased = ['roberta-base']
+        self.cased = ['roberta-base', 'facebook/bart-base']
         
     def __len__(self) :
         return len(self.dataset)
