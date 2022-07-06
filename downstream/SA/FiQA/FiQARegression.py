@@ -18,18 +18,29 @@ device = torch.device("cuda")
 class RegressionHead(nn.Module):
     """Head for sentence-level classification tasks."""
 
-    def __init__(self, dropout, configuration):
+    def __init__(self, dropout, configuration, args):
         super().__init__()
         self.dense = nn.Linear(configuration.hidden_size, configuration.hidden_size)
         regresser_dropout = dropout
         self.dropout = nn.Dropout(regresser_dropout)
         self.out_proj = nn.Linear(configuration.hidden_size, 1)
-
-    def forward(self, features, **kwargs):
-        # features shape : [batch, seq_length, hidden_size]
         
-        # x shape : [batch, hidden_size] -> [CLS]토큰만 모음
-        x = features[:, 0, :]  # take <s> token (equiv. to [CLS])
+        self.batch_size = args.batch_size
+        self.CLS_MEAN = args.CLS_MEAN
+
+
+    def forward(self, features, target_idx):
+        # target_idx
+        start = target_idx[0] # [batch]
+        end = target_idx[1] # [batch]
+        # features shape : [batch, seq_length, hidden_size]
+        if self.CLS_MEAN == 'CLS' :
+            x = features[:, 0, :] # [batch, hidden_size]
+        elif self.CLS_MEAN == 'MEAN' :
+            x = torch.stack([torch.mean(features[i][start[i]:end[i]], dim=0) for i in range(self.batch_size)])# [batch, hidden_size]
+        elif self.CLS_MEAN == 'CLS_MEAN' :
+            x = torch.stack([torch.mean(torch.cat([features[i][start[i]:end[i]], features[:,0,:]]), dim=0) for i in range(self.batch_size)])# [batch, hidden_size]
+
         x = self.dropout(x)
         x = self.dense(x) # x shape : [batch, hidden_size]
         x = torch.tanh(x) # activation
@@ -38,29 +49,31 @@ class RegressionHead(nn.Module):
         return x
     
 class FiQARegression(pl.LightningModule) :
-    def __init__(self, config) :
+    def __init__(self, args) :
         super().__init__()
         
-        self.learning_rate = config.learning_rate
-        self.batch_size = config.batch_size
-        self.max_length = config.max_length
-        self.dropout = config.dropout
+        self.learning_rate = args.learning_rate
+        self.batch_size = args.batch_size
+        self.max_length = args.max_length
+        self.dropout = args.dropout
+
+        self.args = args
         
         # pretrained 모델 configuration
-        self.configuration = AutoConfig.from_pretrained(config.model)
+        self.configuration = AutoConfig.from_pretrained(args.model)
         
         # 하이퍼파라미터 저장
         self.save_hyperparameters()
         
         # pretrained 모델 불러오기
-        self.model = AutoModel.from_pretrained(config.model)
+        self.model = AutoModel.from_pretrained(args.model)
         
-        self.regresser = RegressionHead(self.dropout, self.configuration)
+        self.regresser = RegressionHead(self.dropout, self.configuration, args)
         
         self.loss_func = MeanSquaredError()
         self.r2score = R2Score()
             
-    def forward(self, input_ids, attention_mask) :
+    def forward(self, input_ids, attention_mask, target_idx) :
         outputs = self.model(
             input_ids,
             attention_mask
@@ -68,7 +81,7 @@ class FiQARegression(pl.LightningModule) :
         
         # last hidden states
         sequence_outputs = outputs[0]
-        logits = self.regresser(sequence_outputs)
+        logits = self.regresser(sequence_outputs, target_idx)
         logits = logits.view([-1])
         
         return logits
@@ -78,7 +91,8 @@ class FiQARegression(pl.LightningModule) :
         
         output = self(
             input_ids = batch['input_ids'].to(device),
-            attention_mask = batch['attention_mask'].to(device)
+            attention_mask = batch['attention_mask'].to(device),
+            target_idx = batch['target_idx']
         )
         
         loss = self.loss_func(output, score)
@@ -125,5 +139,5 @@ class FiQARegression(pl.LightningModule) :
         
         return {
             'optimizer': optimizer,
-            'scheduler': lr_scheduler,
+            'lr_cheduler': lr_scheduler,
         }
