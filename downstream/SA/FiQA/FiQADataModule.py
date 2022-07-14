@@ -54,9 +54,9 @@ class FiQADataset(Dataset) :
         sentence = re.sub("http://[A-Za-z./0-9]+", "", sentence)
         
         # $[알파벳]에서 $ 삭제
-        p = re.compile(r"\$\D+")
+        p = re.compile(r"\$[a-zA-Z]+")
         for f in p.findall(sentence) :
-            sentence.replace(f, f[1:])
+            sentence = sentence.replace(f, f[1:].upper())
         
         # @[알파벳] 삭제
         # sentence = re.sub("@[A-Za-z0-9]+", "", sentence)
