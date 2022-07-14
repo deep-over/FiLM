@@ -139,5 +139,5 @@ class FiQARegression(pl.LightningModule) :
         
         return {
             'optimizer': optimizer,
-            'lr_cheduler': lr_scheduler,
+            'lr_scheduler': lr_scheduler,
         }
