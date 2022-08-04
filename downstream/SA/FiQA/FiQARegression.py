@@ -60,13 +60,16 @@ class FiQARegression(pl.LightningModule) :
         self.args = args
         
         # pretrained 모델 configuration
-        self.configuration = AutoConfig.from_pretrained(args.model)
+        self.configuration = AutoConfig.from_pretrained(args.tokenizer)
         
         # 하이퍼파라미터 저장
         self.save_hyperparameters()
         
         # pretrained 모델 불러오기
-        self.model = AutoModel.from_pretrained(args.model)
+        if args.model.endswith('.ckpt') :
+            self.model = AutoModel.from_pretrained(args.model, config=self.configuration)
+        else :
+            self.model = AutoModel.from_pretrained(args.model)
         
         self.regresser = RegressionHead(self.dropout, self.configuration, args)
         

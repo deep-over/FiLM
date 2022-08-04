@@ -36,7 +36,12 @@ class ClassificationHead(nn.Module):
         x = self.dropout(x)
         x = self.out_proj(x) # x shape : [batch, 3(num_labels)]
         return x
-    
+
+class CheckpointModel(pl.LightningModule) :
+    def __init__(self, *args, **kwargs):
+        super().__init__()
+        self.save_hyperparameters()
+
 class PhraseBankClassification(pl.LightningModule) :
     def __init__(self, config) :
         super().__init__()
@@ -48,18 +53,22 @@ class PhraseBankClassification(pl.LightningModule) :
         self.max_length = config.max_length
         
         # pretrained 모델 configuration
-        self.configuration = AutoConfig.from_pretrained(config.model)
+        self.configuration = AutoConfig.from_pretrained(config.tokenizer)
         
         # 하이퍼파라미터 저장
         self.save_hyperparameters()
         
         # pretrained 모델 불러오기
-        self.model = AutoModel.from_pretrained(config.model)
+        if config.model.endswith('.ckpt') :
+            self.model = AutoModel.from_pretrained(config.model, config=self.configuration)
+        else :
+            self.model = AutoModel.from_pretrained(config.model)
+        # self.model = AutoModel.from_pretrained(config.model)
         
         self.classifier = ClassificationHead(self.configuration)
         
-        self.metric_acc = torchmetrics.Accuracy(num_classs=3)
-        self.metric_f1 = torchmetrics.F1Score(num_classes=3)
+        self.metric_acc = torchmetrics.Accuracy(num_classes=3, average='macro')
+        self.metric_f1 = torchmetrics.F1Score(num_classes=3, average='macro')
         
         # loss function
         self.loss_func = nn.CrossEntropyLoss()
@@ -89,8 +98,8 @@ class PhraseBankClassification(pl.LightningModule) :
         
         self.log(f"[{state.upper()} LOSS]", loss, prog_bar=True)
         
-        y_true = label.cpu()
-        y_pred = output.argmax(dim=1).cpu()
+        y_true = label
+        y_pred = output.argmax(dim=1)
 
         accuracy = self.metric_acc(y_pred, y_true)
         f1 = self.metric_f1(y_pred, y_true)
@@ -146,5 +155,5 @@ class PhraseBankClassification(pl.LightningModule) :
         
         return {
             'optimizer': optimizer,
-            'scheduler': lr_scheduler,
+            'lr_scheduler': lr_scheduler,
         }

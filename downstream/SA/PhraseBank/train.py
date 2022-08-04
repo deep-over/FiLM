@@ -12,58 +12,39 @@ PhraseBank_path = {
     'test' : '/home/ailab/Desktop/NY/FinBERT/Financial-Pre-trained-research/downstream/data/FinancialPhraseBank/test.csv'
 }
 
-# roberta_config = Config('roberta-base', 64, 64, 1, 2e-5)
-# model = PhraseBankClassification(roberta_config)
-# dm = PhraseBankDataModule(PhraseBank_path, roberta_config)
+# config = Config('roberta-base', 'roberta-base', 64, 64, 1, 2e-5)
+# config = Config('facebook/bart-base', 'facebook/bart-base', 64, 64, 1, 2e-5)
+# config = Config('yiyanghkust/finbert-tone', 'yiyanghkust/finbert-tone', 64, 64, 1, 2e-5)
+# config = Config('/home/ailab/Desktop/JY/roberta-retrained', 'roberta-base', 64, 64, 1, 2e-5)
+# config = Config('/home/ailab/Desktop/JY/roberta-retrained/deduplicate', 'roberta-base', 64, 64, 1, 2e-5)
+config = Config('/home/ailab/Desktop/JY/bart-retrained/logs/checkpoints/epoch=0-step=1052212.ckpt', 'facebook/bart-base', 64, 64, 1, 2e-5)
+# config = Config('/home/ailab/Desktop/NY/FinBERT/Financial-Pre-trained-research/downstream/SA/PhraseBank/fin-bart', 'facebook/bart-base', 64, 64, 1, 2e-5)
 
-# checkpoint_callback = pl.callbacks.ModelCheckpoint(monitor='val_accuracy',
-#                                                 dirpath='./roberta_phrasebank',
-#                                                 filename='{epoch:02d}-{val_accuracy:.3f}',
-#                                                 verbose=False,
-#                                                 save_last=True,
-#                                                 mode='max',
-#                                                 save_top_k=-1,
-#                                                 )
+dir_path = './phrasebank'
 
-# tb_logger = pl_loggers.TensorBoardLogger(os.path.join('./roberta_phrasebank', 'tb_logs'))
+model = PhraseBankClassification(config)
 
-# lr_logger = pl.callbacks.LearningRateMonitor()
+dm = PhraseBankDataModule(PhraseBank_path, config)
 
-# trainer = pl.Trainer(
-#     default_root_dir='./roberta_phrasebank/checkpoints',
-#     logger = tb_logger,
-#     callbacks = [checkpoint_callback, lr_logger],
-#     max_epochs=6,
-#     gpus=1
-# )
-
-# trainer.fit(model, dm)
-
-bart_config = Config('facebook/bart-base', 64, 64, 1, 2e-5)
-# model 생성
-model = PhraseBankClassification(bart_config)
-# datamodule 생성
-dm = PhraseBankDataModule(PhraseBank_path, bart_config)
-# checkpoint 어떻게 저장할지 설정
 checkpoint_callback = pl.callbacks.ModelCheckpoint(monitor='val_accuracy',
-                                                dirpath='./bart_phrasebank',
-                                                filename='{epoch:02d}-{val_accuracy:.3f}',
+                                                dirpath=dir_path,
+                                                filename='{epoch:02d}-{val_accuracy:.3f}-{val_f1:.3f}',
                                                 verbose=False,
                                                 save_last=True,
                                                 mode='max',
-                                                save_top_k=-1,
+                                                save_top_k=1,
                                                 )
-# tensorboard logger
-tb_logger = pl_loggers.TensorBoardLogger(os.path.join('./bart_phrasebank', 'tb_logs'))
-# learning rate logger
+
+tb_logger = pl_loggers.TensorBoardLogger(os.path.join(dir_path, 'tb_logs'))
+
 lr_logger = pl.callbacks.LearningRateMonitor()
-# train 설정
+
 trainer = pl.Trainer(
-    default_root_dir='./bart_phrasebank/checkpoints',
+    default_root_dir= os.path.join(dir_path, 'checkpoints'),
     logger = tb_logger,
     callbacks = [checkpoint_callback, lr_logger],
-    max_epochs=6,
-    gpus=1
+    max_epochs=20,
+    gpus=[1]
 )
-# 학습 시작
+
 trainer.fit(model, dm)
