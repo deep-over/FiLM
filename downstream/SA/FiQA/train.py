@@ -63,7 +63,7 @@ trainer = pl.Trainer(
     logger = tb_logger,
     callbacks = [checkpoint_callback, lr_logger],
     max_epochs=args.epochs,
-    gpus=[1]
+    gpus=[0]
 )
 # 학습 시작
 trainer.fit(model, dm)
