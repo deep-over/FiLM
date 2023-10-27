@@ -66,7 +66,7 @@ model = AutoModel.from_pretrained('HYdsl/FiLM')
   </tr>
   <tr align="center">
     <td align="center" colspan="2">Earnings Call</td>
-    <td>Earnings conference call transcripts</td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    <td>Earnings conference call transcripts</td>
     <td> 1.66 B </td>
   </tr>
   <tr align="center">
@@ -96,4 +96,204 @@ model = AutoModel.from_pretrained('HYdsl/FiLM')
     <td> 2.4 B </td>
   </tr>
 </table>
-    
+
+### Financial tasks performance
+<table>
+  <tr align='center'>
+    <th class="tg-c3ow">Model</th>
+    <th class="tg-c3ow" colspan="2">FPB</th>
+    <th class="tg-c3ow">NER</th>
+    <th class="tg-c3ow">Headline</th>
+    <th class="tg-c3ow">FiNER</th>
+    <th class="tg-c3ow" colspan="2">FinQA</th>
+    <th class="tg-c3ow">FOMC</th>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">Metric</td>
+    <td class="tg-c3ow">Accuracy</td>
+    <td class="tg-c3ow">F-1</td>
+    <td class="tg-c3ow">F-1</td>
+    <td class="tg-c3ow">F-1</td>
+    <td class="tg-c3ow">F-1</td>
+    <td class="tg-c3ow">Prog Acc</td>
+    <td class="tg-c3ow">Exe Acc</td>
+    <td class="tg-c3ow">F-1</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">BERT [Devlin et al., 2019]</td>
+    <td class="tg-c3ow">83.30</td>
+    <td class="tg-c3ow">81.73</td>
+    <td class="tg-c3ow">75.09</td>
+    <td class="tg-c3ow">89.54</td>
+    <td class="tg-c3ow">79.40</td>
+    <td class="tg-c3ow">51.09</td>
+    <td class="tg-c3ow">53.10</td>
+    <td class="tg-c3ow">63.81</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">RoBERTa-base [Liu et al., 2019b]</td>
+    <td class="tg-c3ow">85.30</td>
+    <td class="tg-c3ow">83.93</td>
+    <td class="tg-c3ow">78.81</td>
+    <td class="tg-c3ow">91.29</td>
+    <td class="tg-c3ow">81.58</td>
+    <td class="tg-c3ow">56.76</td>
+    <td class="tg-c3ow">59.11</td>
+    <td class="tg-c3ow">69.16</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">Fin-BERT [Araci D et al., 2019]</td>
+    <td class="tg-c3ow">85.25</td>
+    <td class="tg-c3ow">82.45</td>
+    <td class="tg-c3ow">77.93</td>
+    <td class="tg-c3ow">90.48</td>
+    <td class="tg-c3ow">81.49</td>
+    <td class="tg-c3ow">47.86</td>
+    <td class="tg-c3ow">50.04</td>
+    <td class="tg-c3ow">64.50</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">Fin-BERT [Yang Y et al., 2020]</td>
+    <td class="tg-c3ow">83.68</td>
+    <td class="tg-c3ow">82.52</td>
+    <td class="tg-c3ow">70.40</td>
+    <td class="tg-c3ow">90.83</td>
+    <td class="tg-c3ow">81.08</td>
+    <td class="tg-c3ow">38.79</td>
+    <td class="tg-c3ow">40.54</td>
+    <td class="tg-c3ow">64.30</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">FLANG-BERT [Shah et al., 2022]</td>
+    <td class="tg-c3ow">84.76</td>
+    <td class="tg-c3ow">83.12</td>
+    <td class="tg-c3ow">75.58</td>
+    <td class="tg-c3ow">91.06</td>
+    <td class="tg-c3ow">81.53</td>
+    <td class="tg-c3ow">49.17</td>
+    <td class="tg-c3ow">51.44</td>
+    <td class="tg-c3ow">64.93</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">FLANG-RoBERTa [Shah et al., 2022]</td>
+    <td class="tg-c3ow">83.86</td>
+    <td class="tg-c3ow">82.18</td>
+    <td class="tg-c3ow">71.36</td>
+    <td class="tg-c3ow">90.46</td>
+    <td class="tg-c3ow">80.78</td>
+    <td class="tg-c3ow">30.69</td>
+    <td class="tg-c3ow">32.17</td>
+    <td class="tg-c3ow">68.02</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">SEC-BERT-base [Loukas L et al., 2022]</td>
+    <td class="tg-c3ow">84.37</td>
+    <td class="tg-c3ow">82.18</td>
+    <td class="tg-c3ow">78.74</td>
+    <td class="tg-c3ow">90.52</td>
+    <td class="tg-c3ow">82.35</td>
+    <td class="tg-c3ow">53.18</td>
+    <td class="tg-c3ow">55.45</td>
+    <td class="tg-c3ow">65.06</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">FiLM [ours]</td>
+    <td class="tg-c3ow">86.25</td>
+    <td class="tg-c3ow">84.48</td>
+    <td class="tg-c3ow">79.78</td>
+    <td class="tg-c3ow">91.79</td>
+    <td class="tg-c3ow">82.02</td>
+    <td class="tg-c3ow">58.85</td>
+    <td class="tg-c3ow">61.38</td>
+    <td class="tg-c3ow">69.60</td>
+  </tr>
+  <tr align='center'>
+    <td class="tg-c3ow">FiLM (5.5B) [ours]</td>
+    <td class="tg-c3ow">86.14</td>
+    <td class="tg-c3ow">84.11</td>
+    <td class="tg-c3ow">78.82</td>
+    <td class="tg-c3ow">91.74</td>
+    <td class="tg-c3ow">82.39</td>
+    <td class="tg-c3ow">59.37</td>
+    <td class="tg-c3ow">61.64</td>
+    <td class="tg-c3ow">69.16</td>
+  </tr>
+</table>
+
+### Information from financial tasks
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-uzvj">Name</th>
+    <th class="tg-uzvj">Task</th>
+    <th class="tg-uzvj">Train size</th>
+    <th class="tg-uzvj">Valid size</th>
+    <th class="tg-uzvj">Test size</th>
+    <th class="tg-uzvj">Metric</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-uzvj">FPB [1]</td>
+    <td class="tg-9wq8">Sentiment classification</td>
+    <td class="tg-yz93">3,391 </td>
+    <td class="tg-yz93">726 </td>
+    <td class="tg-yz93">726</td>
+    <td class="tg-9wq8">Accuracy &amp; F-1</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">NER [2]</td>
+    <td class="tg-9wq8">Named entity recognition</td>
+    <td class="tg-yz93">932</td>
+    <td class="tg-yz93">232</td>
+    <td class="tg-yz93">302</td>
+    <td class="tg-9wq8">F-1</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">Headline [3]</td>
+    <td class="tg-9wq8">News headlines classification</td>
+    <td class="tg-yz93">7,989</td>
+    <td class="tg-yz93">1,141</td>
+    <td class="tg-yz93">2,282</td>
+    <td class="tg-9wq8">F-1</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">FiNER [4]</td>
+    <td class="tg-9wq8">Numeric entity recognition</td>
+    <td class="tg-yz93">900,384</td>
+    <td class="tg-yz93">112,494</td>
+    <td class="tg-yz93">108,378</td>
+    <td class="tg-9wq8">F-1</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">FinQA [5]</td>
+    <td class="tg-9wq8">Question answering</td>
+    <td class="tg-yz93">6,251</td>
+    <td class="tg-yz93">883</td>
+    <td class="tg-yz93">1,147</td>
+    <td class="tg-9wq8">Accuracy(Prog &amp; Exe)</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">FOMC [6]</td>
+    <td class="tg-9wq8">Sentiment classification</td>
+    <td class="tg-yz93">1,588</td>
+    <td class="tg-yz93">396</td>
+    <td class="tg-yz93">496</td>
+    <td class="tg-9wq8">F-1 (Combined-S)</td>
+  </tr>
+</tbody>
+</table>
+
+For information on the task, refer to the [FLUE benchmark](https://github.com/SALT-NLP/FLANG). We follow Benchmark too.
+
+[1] https://huggingface.co/datasets/financial_phrasebank
+
+[2] https://huggingface.co/datasets/tner/fin
+
+[3] https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-in-commodity-market-gold/data
+
+[4] https://github.com/nlpaueb/finer
+
+[5] https://github.com/czyssrs/FinQA
+
+[6] https://github.com/gtfintechlab/fomc-hawkish-dovish
