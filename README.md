@@ -30,6 +30,10 @@ tokenizer = AutoTokenizer.from_pretrained('roberta-base')
 model = AutoModel.from_pretrained('HYdsl/FiLM')
 ```
 
+Refer to the following documentation for basic code use.
+[Basic code.md](https://github.com/deep-over/FiLM/blob/main/basic_code.md)
+
+
 ### Types of Training Corpora 📚
 <table>
   <tr align="center">
