@@ -1,0 +1,9 @@
+category,Learning Rate,Batch Size,mean Val F1 Score,mean Test F1 Score,std Test F1 Score
+final_lab-manual-sp_flangroberta_flangroberta.xlsx,1e-05,8.0,0.712083773253751,0.6517888611215757,0.01753869703522697
+final_lab-manual-combine_flangroberta_flangroberta.xlsx,1e-05,32.0,0.6842569759358946,0.6481860610844709,0.028533113261664297
+final_lab-manual-mm_flangroberta_flangroberta.xlsx,1e-05,8.0,0.6736303169056651,0.6230066132847222,0.028126453927956402
+final_lab-manual-pc_flangroberta_flangroberta.xlsx,1e-05,16.0,0.626546629341251,0.5146639708312691,0.025953730954146617
+final_lab-manual-split-combine_flangroberta_flangroberta.xlsx,1e-05,4.0,0.6820369533254947,0.6802203507183243,0.005086397878703597
+final_lab-manual-sp-split_flangroberta_flangroberta.xlsx,1e-05,32.0,0.6736724666660932,0.6352629412601011,0.015529885029656956
+final_lab-manual-mm-split_flangroberta_flangroberta.xlsx,1e-05,8.0,0.6643094963696661,0.6718061907557646,0.017105538374382744
+final_lab-manual-pc-split_flangroberta_flangroberta.xlsx,1e-05,8.0,0.6309572880731736,0.4943836789771467,0.022647909455347583

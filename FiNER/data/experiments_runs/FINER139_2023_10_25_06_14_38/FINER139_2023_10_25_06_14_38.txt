@@ -1,0 +1,57 @@
+
+---------------- Train ----------------
+Log Name: FINER139_2023_10_25_06_14_38
+
+---------------- Train Parameters ----------------
+model_name: roberta-base
+tokenizer_name: roberta-base
+max_length: 200
+replace_numeric_values: None
+subword_pooling: all
+use_fast_tokenizer: True
+
+---------------- General Parameters ----------------
+debug: False
+loss_monitor: val_macro_f1
+early_stopping_patience: 5
+reduce_lr_patience: 2
+reduce_lr_cooldown: 2
+epochs: 30
+batch_size: 16
+workers: 10
+max_queue_size: 100
+use_multiprocessing: True
+run_eagerly: False
+wandb_entity: None
+wandb_project: None
+
+---------------- Hyper Parameters ----------------
+learning_rate: 1e-05
+dropout_rate: 0.1
+crf: False
+
+---------------- Evaluation Parameters ----------------
+pretrained_model: 
+splits: ['validation', 'test']
+
+
+⏳ Generating examples from = /home/jaeyoung/.cache/huggingface/datasets/downloads/extracted/f1c3a4451b5597315184ee43f7e4bcf7bdd0c20d70faa815fb6677e8bd97d71f/train.jsonl
+⏳ Generating examples from = /home/jaeyoung/.cache/huggingface/datasets/downloads/extracted/f1c3a4451b5597315184ee43f7e4bcf7bdd0c20d70faa815fb6677e8bd97d71f/validation.jsonl
+⏳ Generating examples from = /home/jaeyoung/.cache/huggingface/datasets/downloads/extracted/f1c3a4451b5597315184ee43f7e4bcf7bdd0c20d70faa815fb6677e8bd97d71f/test.jsonl
+Reusing dataset finer139 (/home/jaeyoung/.cache/huggingface/datasets/nlpaueb___finer139/finer-139/1.0.0/5f5a8eb2a38e8b142bb8ca63f3f9600634cc6c8963e4c982926cf2b48e4e55ff)
+Reusing dataset finer139 (/home/jaeyoung/.cache/huggingface/datasets/nlpaueb___finer139/finer-139/1.0.0/5f5a8eb2a38e8b142bb8ca63f3f9600634cc6c8963e4c982926cf2b48e4e55ff)
+Model Summary
+Model: "transformer"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ tf_roberta_model (TFRoberta  multiple                 124645632 
+ Model)                                                          
+                                                                 
+ dense (Dense)               multiple                  214551    
+                                                                 
+=================================================================
+Total params: 124,860,183
+Trainable params: 124,860,183
+Non-trainable params: 0
+_________________________________________________________________

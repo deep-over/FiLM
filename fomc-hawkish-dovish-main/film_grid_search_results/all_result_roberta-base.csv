@@ -1,0 +1,9 @@
+category,Learning Rate,Batch Size,mean Val F1 Score,mean Test F1 Score,std Test F1 Score
+final_lab-manual-sp-split_roberta_roberta-base.xlsx,1e-05,8.0,0.6801408683472899,0.6699082193870981,0.01676297822567988
+final_lab-manual-pc-split_roberta_roberta-base.xlsx,1e-05,4.0,0.5667554873125229,0.5454853868587625,0.09701408488835891
+final_lab-manual-mm_roberta_roberta-base.xlsx,1e-05,4.0,0.733276342399964,0.6696142873895473,0.046192392872006036
+final_lab-manual-mm-split_roberta_roberta-base.xlsx,1e-05,16.0,0.7264657821087329,0.6619375566230922,0.040481576708172234
+final_lab-manual-sp_roberta_roberta-base.xlsx,1e-05,8.0,0.7069541091079744,0.6507825901024116,0.020360646539564854
+final_lab-manual-pc_roberta_roberta-base.xlsx,1e-05,32.0,0.6222616680812938,0.5407911107084264,0.009439809612472403
+final_lab-manual-split-combine_roberta_roberta-base.xlsx,1e-05,8.0,0.7187791066694099,0.6916382434966204,0.013847080382778449
+final_lab-manual-combine_roberta_roberta-base.xlsx,1e-05,16.0,0.7311571557258899,0.6904204917123486,0.007843984886213275

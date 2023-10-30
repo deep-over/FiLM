@@ -1,0 +1,9 @@
+category,Learning Rate,Batch Size,mean Val F1 Score,mean Test F1 Score,std Test F1 Score
+final_lab-manual-combine_finbert_fin_bert_models.xlsx,1e-05,4.0,0.671054500084917,0.6392531490882135,0.026245591149541402
+final_lab-manual-split-combine_finbert_fin_bert_models.xlsx,1e-05,4.0,0.675260402287861,0.6449693127950152,0.011018445840947534
+final_lab-manual-pc-split_finbert_fin_bert_models.xlsx,1e-05,8.0,0.5518462180557435,0.5132866789649778,0.05262235743334515
+final_lab-manual-sp-split_finbert_fin_bert_models.xlsx,1e-05,4.0,0.6699402889291332,0.628180303225511,0.03418641121781594
+final_lab-manual-mm-split_finbert_fin_bert_models.xlsx,1e-05,8.0,0.6783251461090732,0.6500152779621048,0.026543605849853803
+final_lab-manual-pc_finbert_fin_bert_models.xlsx,0.0001,32.0,0.5627343735158895,0.45035520680035335,0.05620308049964147
+final_lab-manual-sp_finbert_fin_bert_models.xlsx,1e-05,4.0,0.6456329273954953,0.65588616981022,0.02341075646486635
+final_lab-manual-mm_finbert_fin_bert_models.xlsx,1e-05,4.0,0.6370800146850698,0.5998414300378245,0.037863158487429445
