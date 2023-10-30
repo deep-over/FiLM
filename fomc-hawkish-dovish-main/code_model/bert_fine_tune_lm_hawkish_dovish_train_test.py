@@ -11,7 +11,7 @@ from sklearn.metrics import f1_score
 import numpy as np
 
 sys.path.append('')
-root_path = "/home/jaeyoung/downstream/fomc-hawkish-dovish-main/"
+root_path = "fomc-hawkish-dovish-main/"
 
 def train_lm_hawkish_dovish(gpu_numbers: str, train_data_path: str, test_data_path: str, language_model_to_use: str, seed: int, batch_size: int, learning_rate: float, save_model_path: str, film_path = str):
     """
