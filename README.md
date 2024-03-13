@@ -10,7 +10,7 @@ Over the past few years, various domain-specific pretrained language models (PLM
 
 ### **FiLM**(**Fi**nancial **L**anguage **M**odel) Models 🌟
 FiLM is a Pre-trained Language Model (PLM) optimized for the Financial domain, built upon a diverse range of Financial domain corpora. Initialized with the RoBERTa-base model, FiLM undergoes further training to achieve performance that surpasses RoBERTa-base in financial domain for the first time.
-Our model can be called Fin-Roberta.
+Our model can be called Fin-RoBERTa.
 
 To train FiLM, we have categorized our Financial Corpus into specific groups and gathered a diverse range of corpora to ensure optimal performance.
 
