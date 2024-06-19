@@ -1,7 +1,7 @@
 ## Exploring the Impact of Corpus Diversity on Financial Pretrained Language Models
 (EMNLP 2023 findings)
 
-Paper: https://arxiv.org/abs/2310.13312
+Paper: https://aclanthology.org/2023.findings-emnlp.138/
 
 model repository: https://huggingface.co/HYdsl/FiLM
 
