@@ -148,7 +148,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-c3ow">69.16</td>
   </tr>
   <tr align='center'>
-    <td class="tg-c3ow">Fin-BERT [Araci D et al., 2019](https://arxiv.org/abs/1908.10063)</td>
+    <td class="tg-c3ow">Fin-BERT [<a href="https://arxiv.org/abs/1908.10063">Araci D et al., 2019</a>]</td>
     <td class="tg-c3ow">85.25</td>
     <td class="tg-c3ow">82.45</td>
     <td class="tg-c3ow">77.93</td>
@@ -159,7 +159,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-c3ow">64.50</td>
   </tr>
   <tr align='center'>
-    <td class="tg-c3ow">Fin-BERT [Yang Y et al., 2020](https://arxiv.org/abs/2006.08097)</td>
+    <td class="tg-c3ow">Fin-BERT [<a href="https://arxiv.org/abs/2006.08097">Yang Y et al., 2020</a>]</td>
     <td class="tg-c3ow">83.68</td>
     <td class="tg-c3ow">82.52</td>
     <td class="tg-c3ow">70.40</td>
@@ -170,7 +170,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-c3ow">64.30</td>
   </tr>
   <tr align='center'>
-    <td class="tg-c3ow">FLANG-BERT [Shah et al., 2022](https://arxiv.org/abs/2211.00083)</td>
+    <td class="tg-c3ow">FLANG-BERT [<a href="https://arxiv.org/abs/2211.00083">Shah et al., 2022</a>] </td>
     <td class="tg-c3ow">84.76</td>
     <td class="tg-c3ow">83.12</td>
     <td class="tg-c3ow">75.58</td>
@@ -181,7 +181,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-c3ow">64.93</td>
   </tr>
   <tr align='center'>
-    <td class="tg-c3ow">FLANG-RoBERTa [Shah et al., 2022]</td>
+    <td class="tg-c3ow">FLANG-RoBERTa [<a href="https://arxiv.org/abs/2211.00083">Shah et al., 2022</a>]</td>
     <td class="tg-c3ow">83.86</td>
     <td class="tg-c3ow">82.18</td>
     <td class="tg-c3ow">71.36</td>
@@ -192,7 +192,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-c3ow">68.02</td>
   </tr>
   <tr align='center'>
-    <td class="tg-c3ow">SEC-BERT-base [Loukas L et al., 2022](https://arxiv.org/abs/2203.06482)</td>
+    <td class="tg-c3ow">SEC-BERT-base [<a href="https://arxiv.org/abs/2203.06482">Loukas L et al., 2022</a>]</td>
     <td class="tg-c3ow">84.37</td>
     <td class="tg-c3ow">82.18</td>
     <td class="tg-c3ow">78.74</td>
@@ -280,7 +280,7 @@ Refer to the following documentation for basic code use.
     <td class="tg-9wq8">Accuracy(Prog &amp; Exe)</td>
   </tr>
   <tr>
-    <td class="tg-uzvj">FOMC [6]</td>
+    <td class="tg-uzvj"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4447632">FOMC</a> [6]</td>
     <td class="tg-9wq8">Sentiment classification</td>
     <td class="tg-yz93">1,588</td>
     <td class="tg-yz93">396</td>
